@@ -46,11 +46,17 @@ This project focuses on the prediction of the prices of Bitcoin, the most in-dem
 * pmdarima
 * arch
 
-### How to run (Windows/Linux/Mac):
-1. cd \<PROJECT ROOT DIRECTORY\>
-2. pip install -r requirements.txt or pipenv install --ignore-pipfile
-3. python <filename>.py
+### Install Dependencies (requirements.txt)
+1. pip install -r requirements.txt
 
+OR
+
+1. pipenv install --ignore
+2. pipenv shell
+
+### How to Run
+1. cd \<PROJECT ROOT DIRECTORY\>
+2. python \<filename\>.py
 
 ### File Descriptions:
 * auto-ARIMA.py: Runs automated gridsearch from pmdarima library, to find the best model parameters.
