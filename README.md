@@ -18,11 +18,10 @@ This project focuses on the prediction of the prices of Bitcoin, the most in-dem
 
 ![Autocorrelation](imgs/corr.png)
 
-* Best Results (GARCH + SARIMAX)
+* Best Results (GARCH + SARIMAX) (RMSE: 154.32)
 
 ![arima-garch-results](imgs/garch-sarimax.png)
 
-RMSE value 154.32
 
 
 ### ML Models Used:
