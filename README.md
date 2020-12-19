@@ -33,5 +33,7 @@ This project focuses on the prediction of the prices of Bitcoin, the most in-dem
 ### File Descriptions:
 * auto-ARIMA.py: Runs automated gridsearch from pmdarima library, to find the best model parameters.
 * AR.py, ARMA.py, ARIMA.py, SARIMAX.py use the above found best parameters to train the respective models as per their filenames.
-* //sajag apne add karde//
+* elasticnet.py runs Linear Regression with a combination of L1 and L2 penalty
+* bayesian.py runs BayesianRidge regression with optimal parameters
+* polyreg.py runs Linear Regression by adding polynomial features
 * //arima+garch//
