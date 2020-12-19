@@ -55,4 +55,4 @@ RMSE value 154.32
 * elasticnet.py runs Linear Regression with a combination of L1 and L2 penalty
 * bayesian.py runs BayesianRidge regression with optimal parameters
 * polyreg.py runs Linear Regression by adding polynomial features
-* //arima+garch//
+* .py runs SARIMAX models added with error of residuals from SARIMAX using GARCH.
