@@ -3,6 +3,26 @@
 ## About
 This project focuses on the prediction of the prices of Bitcoin, the most in-demand crypto-currency of today’s world. We predict the prices accurately by gathering data available at [coinmarketcap](https://web-api.coinmarketcap.com/v1/cryptocurrency/ohlcv/historical?convert=USD&slug=bitcoin&time_end=1601510400&time_start=1367107200) while taking various hyper-parameters into consideration which have affected the bitcoin prices until now. 
 
+### Dataset
+* [Dataset](https://web-api.coinmarketcap.com/v1/cryptocurrency/ohlcv/historical?convert=USD&slug=bitcoin&time_end=1601510400&time_start=1367107200) has been downloaded using coinmarketcap API.
+
+* Dataset after Preprocessing
+
+![Dataset after preprocessing](imgs/df.png)
+
+* Seasonal Decomposition of the Time-Series after order-1 differencing (to make it stationary)
+
+![Seasonal Decomposition After Order-1 Differencing](imgs/seas-decomp.png)
+
+* Correlation Plots 
+
+![Autocorrelation](imgs/corr.png)
+
+* Best Results (GARCH + SARIMAX)
+
+![arima-garch-results](imgs/garch-sarimax.png)
+
+
 ### ML Models Used:
 * Regression Models
   * Linear Regression with various penalties
@@ -13,8 +33,7 @@ This project focuses on the prediction of the prices of Bitcoin, the most in-dem
   * ARMA
   * ARIMA
   * SARIMAX
-* ARIMA + GARCH Models
-  * //ishan add
+* SARIMAX + GARCH Fusion
 
 ### Python Dependencies:
 * pandas
