@@ -22,7 +22,7 @@ This project focuses on the prediction of the prices of Bitcoin, the most in-dem
 
 ![arima-garch-results](imgs/garch-sarimax.png)
 
-
+RMSE value 154.32
 ### ML Models Used:
 * Regression Models
   * Linear Regression with various penalties
@@ -33,7 +33,7 @@ This project focuses on the prediction of the prices of Bitcoin, the most in-dem
   * ARMA
   * ARIMA
   * SARIMAX
-* SARIMAX + GARCH Fusion
+* SARIMAX + GARCH on the residuals of SARIMAX model
 
 ### Python Dependencies:
 * pandas
