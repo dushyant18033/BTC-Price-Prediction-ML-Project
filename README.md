@@ -44,10 +44,11 @@ This project focuses on the prediction of the prices of Bitcoin, the most in-dem
 * matplotlib
 * statsmodels
 * pmdarima
+* arch
 
 ### How to run (Windows/Linux/Mac):
 1. cd \<PROJECT ROOT DIRECTORY\>
-2. pip install -r requirements.txt
+2. pip install -r requirements.txt or pipenv install --ignore-pipfile
 3. python <filename>.py
 
 
